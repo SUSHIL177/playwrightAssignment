@@ -1,0 +1,24 @@
+{
+  "name": "playwrightassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "npx playwright show-report",
+    "test:qa:regression": "cross-env ENV=qa npx playwright test --grep @regression",
+    "test:qa:catalog": "cross-env ENV=qa npx playwright test --grep @catalog",
+    "test:stage:regression": "cross-env ENV=stage npx playwright test --grep @regression",
+    "test:stage:catalog": "cross-env ENV=stage npx playwright test --grep @catalog"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.4.2"
+  }
+}

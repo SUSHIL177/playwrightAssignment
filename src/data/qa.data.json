@@ -1,0 +1,21 @@
+{
+  "baseUrl": "https://automationexercise.com",
+  "catalog": {
+    "jeansSearch": { "searchTerm": "Jeans", "expectedValidationText": "Jeans" },
+    "invalidSearch": { "searchTerm": "xyz_nonexistent_999" },
+    "categories": { "womenDress": { "headerText": "Women - Dress Products" } },
+    "brands": { "polo": { "headerText": "Brand - Polo Products" } }
+  },
+  "userProfile": {
+    "username": "QA_Automation_Expert",
+    "password": "SafePassword123!",
+    "firstName": "John",
+    "lastName": "Doe",
+    "address": "123 Playwright Automation St.",
+    "country": "United States",
+    "state": "Ohio",
+    "city": "Wadsworth",
+    "zipcode": "44281",
+    "mobileNumber": "1234567890"
+  }
+}

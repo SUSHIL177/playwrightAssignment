@@ -1,0 +1,22 @@
+{
+  "baseUrl": "https://stage.automationexercise.com",
+  "catalog": {
+    "jeansSearch": {
+      "searchTerm": "Staging-Jeans",
+      "expectedValidationText": "Staging-Jeans"
+    },
+    "invalidSearch": {
+      "searchTerm": "xyz_nonexistent_999"
+    },
+    "categories": {
+      "womenDress": {
+        "headerText": "Stage - Women - Dress Products"
+      }
+    },
+    "brands": {
+      "polo": {
+        "headerText": "Stage - Brand - Polo Products"
+      }
+    }
+  }
+}
